@@ -176,29 +176,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Micromouse: An IoT-based Maze Solver",
+      company: "Micromouse",
+      //companylogo: require("./assets/images/facebookLogo.png"),
+      //date: "June 2018 – Present",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Autonomous Maze Solving: The Micromouse operates independently, using sensors to detect walls and navigate the maze efficiently with advanced algorithms for pathfinding",
+        "IoT Integration for Optimization: While fully autonomous, the system can collect data for analysis and performance improvements through IoT, without requiring remote control during operation"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Image Forgery Detector using Benford’s Law",
+      company: "Forgery Detector",
+      //companylogo: require("./assets/images/quoraLogo.png"),
+     // date: "May 2017 – May 2018",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Forgery Detection: The system analyzes image pixel data using Benford’s Law, which predicts the distribution of leading digits. Deviations from this distribution indicate potential manipulation or forgery in the image",
+        "Statistical Analysis: By applying Benford's Law, the tool identifies inconsistencies in the natural occurrence of digits, helping to detect digitally altered or fabricated images"
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      //companylogo: require("./assets/images/airbnbLogo.png"),
+//date: "Jan 2015 – Sep 2015",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Profanity Detection: CleanTalk uses Natural Language Processing (NLP) to detect and filter profane or inappropriate language from video transcripts or subtitles in real-time",
+        "Context-Aware Analysis: It analyzes spoken content contextually, ensuring accurate identification of offensive language while minimizing false positives in diverse linguistic scenarios"
+      ]
     }
   ]
 };
@@ -302,7 +310,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
