@@ -72,11 +72,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "SQL",
-      fontAwesomeClassname: "fab fa-database"
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "C++",
-      fontAwesomeClassname: "fab fa-code"
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "JavaScript",
@@ -84,11 +84,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "PowerBi",
-      fontAwesomeClassname: "fab fa-chart-line"
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
       skillName: "Tableau",
-      fontAwesomeClassname: "fab fa-chart-pie"
+      fontAwesomeClassname: "fas fa-chart-pie"
     },
     /*{
       skillName: "swift",
