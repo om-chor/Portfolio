@@ -23,7 +23,7 @@ const greeting = {
   username: "Om Agarwal",
   title: "Hi all, I'm Om",
   subTitle: emoji(
-    "MCA student at GNIMS (Mumbai University) with a B.Sc. in IT. Proficient in Python, C++, Java, SQL, and data visualization tools like Power BI and Tableau. Completed projects in IoT, image forgery detection, and NLP-based profanity filtering. Certified in AI, Machine Learning, and Cybersecurity. Fluent in English, Hindi, Marathi, and Gujarati, with a strong passion for technology and continuous learning."
+    "Tech-savvy MCA student excelling in Python, C++, Java, SQL, and Power BI/Tableau. Driven by technology and continuous skill development. "
   ),
   resumeLink:
     "", // Set to empty to hide the button
