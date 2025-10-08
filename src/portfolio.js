@@ -26,7 +26,7 @@ const greeting = {
     "Tech-savvy MCA student excelling in Python, C++, Java, SQL, and Power BI/Tableau. Driven by technology and continuous skill development. "
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1S3tLGkpnfHN92zNOKGqwDVdmKm5tVyn1/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
