@@ -13,9 +13,9 @@ export default function Footer() {
           {emoji("")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
+          Theme by{"Om Agarwal "}
           <a
-            href="https://github.com/saadpasta/developerFolio"
+            href="https://github.com/om-chor"
             target="_blank"
             rel="noreferrer"
           >
