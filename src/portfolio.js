@@ -23,7 +23,7 @@ const greeting = {
   username: "Om Agarwal",
   title: "Hi all, I'm Om",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience o"
+    "MCA student at GNIMS (Mumbai University) with a B.Sc. in IT. Proficient in Python, C++, Java, SQL, and data visualization tools like Power BI and Tableau. Completed projects in IoT, image forgery detection, and NLP-based profanity filtering. Certified in AI, Machine Learning, and Cybersecurity. Fluent in English, Hindi, Marathi, and Gujarati, with a strong passion for technology and continuous learning."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -178,7 +178,7 @@ const workExperiences = {
     {
       role: "Micromouse: An IoT-based Maze Solver",
       company: "Micromouse",
-      //companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/micromouse.png"),
       //date: "June 2018 – Present",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -189,7 +189,7 @@ const workExperiences = {
     {
       role: "Image Forgery Detector using Benford’s Law",
       company: "Forgery Detector",
-      //companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/forgery.png"),
      // date: "May 2017 – May 2018",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -200,7 +200,7 @@ const workExperiences = {
     {
       role: "CleanTalk: NLP-based Profanity Detection in Videos",
       company: "CleanTalk",
-      //companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/cleantalk.png"),
 //date: "Jan 2015 – Sep 2015",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
